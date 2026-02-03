@@ -1,6 +1,7 @@
 package services.plasma.pTeams.api;
 
 import org.bson.Document;
+import services.plasma.pTeams.teams.Team;
 
 import java.util.List;
 import java.util.UUID;
@@ -34,6 +35,18 @@ public enum PTeamsAPI {
     }
 
     public boolean isInTeamChat(UUID uuid) {
+        throw new RuntimeException("PTeamsAPI is not a plugin!");
+    }
+
+    public Team getTeam(String teamName) {
+        throw new RuntimeException("PTeamsAPI is not a plugin!");
+    }
+
+    public Team getTeamIgnoreCase(String teamName) {
+        throw new RuntimeException("PTeamsAPI is not a plugin!");
+    }
+
+    public Team getTeam(UUID uuid) {
         throw new RuntimeException("PTeamsAPI is not a plugin!");
     }
 
