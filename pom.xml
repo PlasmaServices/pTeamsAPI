@@ -71,4 +71,11 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>plasma-services-releases</id>
+            <url>https://maven.plasma.services/releases/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
